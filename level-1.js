@@ -23,12 +23,14 @@ else {
 // question 4
 
 var numbers = [6, 54, 17, 108, 256];
+
+for(var i = 0; i < numbers; i++) {
     console.log(numbers[6]);
     console.log(numbers[54]);
     console.log(numbers[17]);
     console.log(numbers[108]);
     console.log(numbers[256]);
-
+}
 // question 5
 
 for(var loop = 15; loop <= 25; loop++) {
